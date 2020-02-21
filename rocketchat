@@ -1,0 +1,14 @@
+# Youtube: How to setup cocketchat server
+# https://www.youtube.com/watch?v=retL7BrBaaA
+
+# Rocket.Chat is the leading open source team chat software solution. Free, unlimited and completely customizable with on-premises and SaaS cloud hosting.
+
+sudo snap install rocketchat-server
+sudo apt-get install snapd
+sudo service snap.rocketchat-server.rocketchat-server status
+sudo service snap.rocketchat-server.rocketchat-mongo status
+sudo service snap.rocketchat-server.rocketchat-caddy status
+sudo service snap.rocketchat-server.rocketchat-server restart
+
+# visit http://localhost:3000/
+#rocketchat-server
